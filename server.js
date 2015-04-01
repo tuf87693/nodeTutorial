@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 app.get('/funtime',function(req, res){
 	res.send("<p> "Hey" + req.query.name + "happy to meet you !" </p>");
-}
+});
 
 app.listen(app.get('port'), function() {
 	console.log('Fuck it ship it.');
